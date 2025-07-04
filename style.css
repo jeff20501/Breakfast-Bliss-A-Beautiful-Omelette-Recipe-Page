@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Outfit';
+    font-weight: 500;
+    background-color:hsl(30, 18%, 87%);
+    max-inline-size: 1440px;
+}
+
+p{
+    padding: 10px;
+}
+
+.wrapper{
+    background-color:hsl(0, 0%, 100%);
+    color: hsl(30, 10%, 34%);
+    font-weight:500;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px ;
+    border-radius: 20px;
+    max-inline-size: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h1{
+    color: black;
+    font-family:'Young Serif';
+    font-weight: bold;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+img{
+    display: block;
+    max-inline-size: 100%;
+}
+
+ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.images{
+    inline-size: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+.h2-style{
+    color: hsl(14, 45%, 36%);
+    padding: 20px 0px;
+}
+
+.prep-div{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 40px;
+}
+
+.h3-prep{
+    color: hsl(332, 51%, 32%);
+}
+
+.prep-ul li::marker{
+    color: hsl(332, 51%, 32%);;
+}
+.info{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    inline-size: 100%;
+}
+
+table, tr, td {
+  border-bottom: 1px solid hsl(30, 10%, 34%);
+  border-collapse: collapse;
+}
+
+.weigh{
+    color:hsl(14, 45%, 36%);
+    font-weight:700;
+}
+
+
+.link{
+    color:hsl(332, 51%, 32%);
+    text-decoration: none;
+}
+
+.link:hover{
+    color:red;
+}
+
+.footer{
+    text-align: center;
+}
